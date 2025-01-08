@@ -55,7 +55,7 @@ const AddTodoList = ({ onValueChange }) => {
         Add ToDo
         <AddIcon className="ml-2" />
       </Button>
-      <Modal
+      <Modal 
         open={open}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"

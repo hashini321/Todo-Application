@@ -67,12 +67,12 @@ const TodoList = () => {
   };
 
   return (
-    <div className="bg-gray-700 w-1/2 p-4 rounded-lg shadow-lg text-white">
+    <div className="bg-gray-700 md:w-1/2 w-[350px] mx-10 sm-mx-5 p-4 rounded-lg shadow-lg text-white">
       <div>
         
         <AddTodoList onValueChange={addTodo} />
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mx-10">
          {/* Display Alert */}
             {alert && (
                 <Stack sx={{ width: "100%", marginBottom: 2 }} spacing={2} className="mt-5">
